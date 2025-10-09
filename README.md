@@ -1,7 +1,5 @@
 # My_Portfolio
 
----
-
 ## 🌐 **Portfolio Website – Kamble Navyasri**
 
 ### 🧩 **Description**
@@ -10,7 +8,7 @@ A sleek and responsive personal portfolio website built to showcase my skills, p
 The design focuses on **clean aesthetics**, **fluid responsiveness**, and **interactive animations** that highlight my journey as a developer.
 It features a **dynamic introduction** powered by *Typed.js*, smooth transitions, and a fully responsive layout that adapts beautifully across all devices.
 
----
+--
 
 ### 🚀 **Features**
 
@@ -21,7 +19,7 @@ It features a **dynamic introduction** powered by *Typed.js*, smooth transitions
 * 🌈 **Custom Sections** for About, Skills, Projects, and Contact
 * 🧰 Built with **HTML**, **CSS**, and **JavaScript**
 
----
+--
 
 ### ⚙️ **Tech Stack**
 
@@ -29,7 +27,7 @@ It features a **dynamic introduction** powered by *Typed.js*, smooth transitions
 * **Libraries:** Typed.js (for typing animation)
 * **Version Control:** Git & GitHub
 
----
+--
 
 ### 🖼️ **Preview**
 
@@ -37,7 +35,7 @@ You can add this later once hosted:
 
 > 🔗 [Live Demo](https://yourusername.github.io/portfolio/)
 
----
+--
 
 ### 💡 **How to Run Locally**
 
