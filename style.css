@@ -153,7 +153,7 @@ nav ul li a:hover {
 /* SECTIONS */
 section {
     padding: 50px 10%;
-    min-height: 60vh;
+    min-height: 100vh;
 }
 
 section h1 {
@@ -180,6 +180,70 @@ section p {
     color: var(--primary-blue);
     margin-bottom: 20px;
     text-align: center;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    border-left: 4px solid var(--primary-dark);
+    border-top: 1px solid var(--primary-dark);
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 30px auto;
+    max-width: 1000px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-right: 2px solid #f0f0f0;
+}
+
+.project-content {
+    padding: 25px;
+    flex: 1;
+}
+
+.project-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: center;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.demo-btn {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+    color: var(--primary-dark);
+    padding: 10px 18px;
+    margin: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 1px solid var(--primary-dark);
+}
+
+.demo-btn:hover {
+    background-color: var(--primary-dark);
+    color: white;
 }
 
 /* CONTACT */
@@ -219,7 +283,7 @@ section p {
 .contact-form textarea {
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
 }
@@ -351,13 +415,15 @@ footer {
 }
 
 .achievement-item {
+    margin: 10px;
     display: flex;
     align-items: flex-start;
     gap: 20px;
     background: #f8f9fa;
     padding: 25px;
     border-radius: 10px;
-    border-left: 4px solid var(--accent-blue);
+    border-left: 4px solid var(--primary-dark);
+    border-top: 1px solid var(--primary-dark);
 }
 
 .achievement-icon {
@@ -428,17 +494,17 @@ footer {
 }
 
 .modal-content {
-    position: fixed; 
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
     width: 90%;
     max-width: 900px;
     border-radius: 10px;
     max-height: 90vh;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 .image-viewer-container {
@@ -557,5 +623,27 @@ footer {
 
     .hamburger {
         display: block;
+    }
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-image {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .demo-btn {
+        width: 80%;
     }
 }
