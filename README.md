@@ -34,7 +34,7 @@ It features a **dynamic introduction** powered by *Typed.js*, smooth transitions
 
 ### 🖼️ **Preview**
 
-> 🔗 [Live Demo](https://yourusername.github.io/portfolio/)
+> 🔗 [Live Demo](https://navyasri-18.github.io/My_Portfolio/)
 
 ---
 
