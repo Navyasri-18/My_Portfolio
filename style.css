@@ -192,6 +192,7 @@ section p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 30px auto;
+    padding: 20px;
     max-width: 1000px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
